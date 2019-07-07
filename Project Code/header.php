@@ -11,7 +11,7 @@
   </head>
   <body style="
     width: 1500px;
-    height: 90px;
+    height: 70px;
 ">
   <body>
   <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
@@ -31,8 +31,12 @@
          Menu
         </button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-         <a class="dropdown-item" href="log_in.php">Log In</a>
-         <a class="dropdown-item" href="about_us.php">About Us</a>
+          <a class="dropdown-item" href="log_in.php">Log In</a>
+          <a class="dropdown-item" href="donor_reg.php">Become a Donor</a>
+          <a class="dropdown-item" href="send_req.php">Send Request For Food</a>
+          <a class="dropdown-item" href="view_req.php">View Requests</a>
+          <a class="dropdown-item" href="contact_us.php">Contact Us</a>
+          <a class="dropdown-item" href="about_us.php">About Us</a>
     </div>
 
     </div>
