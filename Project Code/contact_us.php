@@ -20,14 +20,19 @@
         <br>
         <br>
       <h1 align="center"><span class="bold">Contact Us</span></h1>
-
-</form>
+      <img src="Image/img7.jpg" height="400px" width="1250px" style="margin-bottom:10px"></a>
+      <br><br><br>
+      <tr><td><font size="5">Your name:</font></td>
+      <td><input type="text" name="t1"  required="required" pattern="[a-zA-Z _]{2,15}" title="Please enter only character" >
+      </td>
+      </tr>
+      </div>
+     </form>
 </div>
 </nav>
 </body>
 </body>
 <?php include 'footer.php'; ?>
 </html>
-
 
 
