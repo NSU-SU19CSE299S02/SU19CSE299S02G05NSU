@@ -22,6 +22,9 @@
 		    <br>
 			<h1><span class="bold">About Our Organisation</span></h1>
 			<img src="Image/img2.jpg" height="400px" width="1150" style="margin-bottom:10px" /></a>
+                        <p> Hello this is our website.In this website we provide emergency food and support to people locked in poverty.It help by creating awarness food waste in our country.We know it takes more than food to end hunger. So we bring together the experiences of our network, and their communities, to challenge the structural economic issues that lock people in poverty, and campaign for change to end hunger and poverty.This website can helps us to provite the food.So <a href="become_a_donor.php">Sign Up</a> with us to become a part of the journey.
+      </p>
+		
       
        
 	</div>
