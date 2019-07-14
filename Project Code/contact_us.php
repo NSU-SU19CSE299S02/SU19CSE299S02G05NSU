@@ -22,12 +22,32 @@
       <h1 align="center"><span class="bold">Contact Us</span></h1>
       <img src="Image/img7.jpg" height="400px" width="1250px" style="margin-bottom:10px"></a>
       <br><br><br>
-      <tr><td><font size="5">Your name:</font></td>
+      <tr><td><font size="5">Your name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
       <td><input type="text" name="t1"  required="required" pattern="[a-zA-Z _]{2,15}" title="Please enter only character" >
       </td>
-      </tr>
-      </div>
-     </form>
+      </tr><br><br>
+      <tr><td><font size="5">Email Address:</font></td>
+      <td><input type="email" name="t2"  required="required" title="Please enter valid email" >
+      </td>
+      </tr><br><br>
+      <tr><td><font size="5">Mobile No:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
+      <td><input type="number" name="t3"  pattern="[0-9]{10,11}" title="Please enter valid phone no" >
+      </td>
+      </tr><br><br>
+      <tr><td class="lefttd"  style="vertical-align:middle"><font size="5">Subject:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></td><td><textarea name="t4"></textarea></td></tr><br><br>
+
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td><input type="submit" value="Send Us" name="sbmt"></td></tr></table>
+<br><br><br><br>
+<p><font size="5">For more informtion:</font><br>
+   <font size="4">Call us: 017*******</font><br>
+   <font size="4">Email us:foodforall@*****.com</font><br>
+   <font size="4">Facebook page: www.facebook.com/foodforall</font><br>
+ 
+</p>
+     <br><br><br><br>
+
+</div>
+</form>
 </div>
 </nav>
 </body>
