@@ -18,6 +18,12 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+  <div style="height:00px;">
+     <form method="post" enctype="multipart/form-data" style="width: 1200px; height: 600px;">
+      <div class="content">
+        <br><br><br>
+      <img src="Image/img8.jpg" height="300px" width="1250px" style="margin-bottom:10px"></a>
+
 </nav>
 </body>
 </body>
