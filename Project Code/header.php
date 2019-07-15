@@ -31,7 +31,7 @@
          Menu
         </button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="log_in.php">Log In</a>
+          <a class="dropdown-item" href="login.php">Log In</a>
           <a class="dropdown-item" href="donor_reg.php">Become a Donor</a>
           <a class="dropdown-item" href="send_req.php">Send Request For Food</a>
           <a class="dropdown-item" href="view_req.php">View Requests</a>
