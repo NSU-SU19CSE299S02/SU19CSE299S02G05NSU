@@ -23,6 +23,12 @@
       <div class="content">
         <br><br><br>
       <img src="Image/img8.jpg" height="300px" width="1250px" style="margin-bottom:10px"></a>
+      <br><br>
+
+      <table cellpadding="0" cellspacing="0" width="300px" height="300px" class="tableborder" style="margin:auto; margin-top:10px;" ><!---collectd from www.w3school.com--->
+    
+      <tr><td class="lefttd"><h3>E-Mail:</h3></td><td><input type="email" name="t1" required="required" title="Please enter your email"/></td></tr>
+      <tr><td class="lefttd"><h3>Password:</h3></td><td><input type="password"name="t2"  required="required" pattern="[a-zA-Z0-9]{2,10}" title="please enter only character or numbers between 2 to 10 for password"  /></td></tr>
 
 </nav>
 </body>
