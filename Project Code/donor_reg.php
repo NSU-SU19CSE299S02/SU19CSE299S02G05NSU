@@ -23,7 +23,13 @@
   <div class="content">
   <br><br><br>
   <img src="Image/img9.jpg" height="300px" width="1250px" style="margin-bottom:10px"></a>
-  <br><br>
+  <br>
+
+    <tr><td class="lefttd"><h6>First Name:</h6></td><td><input type="text" name="t1" required="required" title="Please enter your first name"/></td></tr><br>
+    <tr><td class="lefttd"><h6>Middle Name:</h6></td><td><input type="text" name="t2" required="required" title="Please enter your Middle name"/></td></tr><br>
+    <tr><td class="lefttd"><h6>Last name:</h6></td><td><input type="text" name="t3" required="required" title="Please enter your last name"/></td></tr><br>
+
+    
  </nav>
 </body>
 </body>
