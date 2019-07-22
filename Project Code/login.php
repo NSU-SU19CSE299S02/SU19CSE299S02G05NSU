@@ -25,12 +25,16 @@
       <img src="Image/img8.jpg" height="300px" width="1250px" style="margin-bottom:10px"></a>
       <br><br>
 
-      <table cellpadding="0" cellspacing="0" width="300px" height="300px" class="tableborder" style="margin:auto; margin-top:10px;" ><!---collectd from www.w3school.com--->
-    
       <tr><td class="lefttd"><h3>E-Mail:</h3></td><td><input type="email" name="t1" required="required" title="Please enter your email"/></td></tr>
       <tr><td class="lefttd"><h3>Password:</h3></td><td><input type="password"name="t2"  required="required" pattern="[a-zA-Z0-9]{2,10}" title="please enter only character or numbers between 2 to 10 for password"  /></td></tr>
+
+      <tr><td>&nbsp;</td><td><input type="submit" value="Log In" name="sbmt" style="border:0px; background:#2D7FDE; width:125px; height:40px;  box-shadow:2px 2px 10px black; color:#E2ECF8; font-weight:bold; font-size:20px;"></td></tr><br>
+
+        <h4 align="center">&nbsp;&nbsp;Not a donor?<a href="donor_reg.php" style="color:red">&nbsp;Click here</a>&nbsp;to register.</h4>
+        <br><br><br>
 
 </nav>
 </body>
 </body>
+<?php include 'footer.php' ?>
 </html>
