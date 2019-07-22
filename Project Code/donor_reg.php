@@ -28,9 +28,18 @@
     <tr><td class="lefttd"><h6>First Name:</h6></td><td><input type="text" name="t1" required="required" title="Please enter your first name"/></td></tr><br>
     <tr><td class="lefttd"><h6>Middle Name:</h6></td><td><input type="text" name="t2" required="required" title="Please enter your Middle name"/></td></tr><br>
     <tr><td class="lefttd"><h6>Last name:</h6></td><td><input type="text" name="t3" required="required" title="Please enter your last name"/></td></tr><br>
+    <tr><td class="lefttd"><h6>Mobile no:</h6></td><td><input type="number" name="t4" required="required" pattern="[0-9]{10,11}" title="Please youe valied mobile no"/></td></tr><br>
+    <tr><td class="lefttd"><h6>Address:</h6></td><td><input type="text" name="t5" required="required" title="Please enter your address"/></td></tr><br>
+    <tr><td class="lefttd"><h6>Email:</h6></td><td><input type="email" name="t6" required="required" title="Please enter your email address"/></td></tr><br>
+    <tr><td class="lefttd"><h6>Password:</h6></td><td><input type="password" name="t7" required="required" pattern="[a-zA-Z0-9]{5,15}" title="Please enter a password in the range of 5-15 to make it strong"/></td></tr><br>
+    <tr><td class="lefttd"><h6>Confirm Password:</h6></td><td><input type="password" name="t7" required="required" pattern="[a-zA-Z0-9]{5,15}" title="Confirm it again" /></td></tr><br><br>
 
-    
+    <tr><td>&nbsp;</td><td><input type="submit" value="Sign Up" name="sbmt" style="border:0px; background: red; width:125px; height:40px; box-shadow:5px 5px 10px black; color:white; font-weight:bold; font-size:20px;"></td></tr></table><br><br><br><br><br><br>
+
+
+  </div>
  </nav>
 </body>
 </body>
+<?php include 'footer.php' ?>
 </html>
