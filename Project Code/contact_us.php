@@ -55,4 +55,14 @@
 <?php include 'footer.php'; ?>
 </html>
 
+<?php include 'DBconnection.php'; ?>
+
+<?php
+if(isset($_POST["sbmt"]))
+{
+  $cn=makeconnection();
+  
+
+}
+?>
 
