@@ -61,8 +61,19 @@
 if(isset($_POST["sbmt"]))
 {
   $cn=makeconnection();
-  
 
+     $s="insert into contacts(name,email,mobile,subj) values('" . $_POST["t1"] ."','" . $_POST["t2"] . "','" . $_POST["t3"] . "','" . $_POST["t4"]   ."')"; 
+      
+  $q=mysqli_query($cn,$s);
+  mysqli_close($cn);
+  if($q>0)
+  {
+  echo "<script>alert('Record is Saved');</script>";
+  }
+  else
+  {echo "<script>alert('Saving Record Failed');</script>";
+  }
+  
 }
 ?>
 
