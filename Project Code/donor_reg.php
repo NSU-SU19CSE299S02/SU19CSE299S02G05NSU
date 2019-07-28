@@ -43,3 +43,10 @@
 </body>
 <?php include 'footer.php' ?>
 </html>
+<?php include 'DBconnection.php'; ?>
+
+<?php
+
+
+
+?>
