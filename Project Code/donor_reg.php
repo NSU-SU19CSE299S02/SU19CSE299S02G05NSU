@@ -46,7 +46,11 @@
 <?php include 'DBconnection.php'; ?>
 
 <?php
+{
+	$cn=makeconnection();
+		$s="insert into donorregistration(f_name,m_name,l_name,mobile,address,email,pwd) values('" . $_POST["t1"] ."','" . $_POST["t2"] . "','" . $_POST["t3"] . "','" . $_POST["t4"] . "','" . $_POST["t5"] . "','" . $_POST["t6"] . "','" . $_POST["t8"]   ."')";
+		//insert the inputs to the donorregistration in DB
 
 
-
+}
 ?>
