@@ -38,3 +38,34 @@
 </body>
 <?php include 'footer.php' ?>
 </html>
+
+<?php include 'DBconnection.php'; ?>
+
+<?php
+
+$_SESSION['donorstatus']="";
+
+if(isset($_POST["sbmt"])) 
+{
+    $cn=makeconnection();			
+
+			$s="select *from donorregistration where email='" . $_POST["t1"] . "' and pwd='" .$_POST["t2"] . "'";
+			
+	$q=mysqli_query($cn,$s);
+	$r=mysqli_num_rows($q);
+	mysqli_close($cn);
+	if($r>0)
+	{
+		$_SESSION["email"]=$_POST["t1"];
+       $_SESSION['donorstatus']="yes";
+
+        echo "<script>location.replace('Donor/index.php');</script>"; //This will take to the donor/index page
+	}
+	else
+	{
+		echo "<script>alert('Invalid User Name Or Password');</script>";
+	}
+		
+}	
+?>
+// This part is taken from www.w3school.com & stackoverflow
