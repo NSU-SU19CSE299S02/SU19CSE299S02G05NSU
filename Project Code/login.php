@@ -41,8 +41,15 @@
 
 <?php include 'DBconnection.php'; ?>
 
-<?php
+<?php{
+$cn=makeconnection();			
 
+			$s="select *from donorregistration where email='" . $_POST["t1"] . "' and pwd='" .$_POST["t2"] . "'";
+			
+	$q=mysqli_query($cn,$s);
+	$r=mysqli_num_rows($q);
+	mysqli_close($cn);
+	if($r>0)
 
-
+}
 ?>
