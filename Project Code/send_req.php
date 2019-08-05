@@ -38,4 +38,28 @@
 </nav>
 </body>
 </body>
+
+<?php include 'footer.php'; ?>
+
+<?php include 'DBconnection.php'; ?>
+
+<?php
+if(isset($_POST["sbmt"]))
+{
+    $cn=makeconnection();
+     $s="insert into requests(name,mobile,email,location,quantity) values('" . $_POST["t1"] ."','" . $_POST["t2"] . "','" . $_POST["t3"] . "','" . $_POST["t4"] . "','" . $_POST["t5"] ."')";
+     //this will insert values to DB
+
+  $q=mysqli_query($cn,$s);
+  mysqli_close($cn);
+  if($q>0)
+  {
+  echo "<script>alert('Request send');</script>";
+  }
+  else
+  {echo "<script>alert('Sending request Failed');</script>";
+  }
+}
+?>
+
 </html>      
