@@ -22,3 +22,20 @@
      <form method="post" enctype="multipart/form-data" style="width: 1200px; height: 600px;">
       <div class="content">
         <br><br>
+        
+  <img src="Image/10.png" height="300px" width="1250px" style="margin-bottom:3px"></a>
+
+    <tr><td class="lefttd"><h6>Your Name:</h6></td><td><input type="text" name="t1" required="required" title="Please enter your name"/></td></tr><br>
+    <tr><td class="lefttd"><h6>Mobile no:</h6></td><td><input type="number" name="t2" required="required" pattern="[0-9]{10,11}" title="Please youe valied mobile no"/></td></tr><br>
+    <tr><td class="lefttd"><h6>Email:</h6></td><td><input type="email" name="t3" required="required" title="Please enter your email address"/></td></tr><br>
+    <tr><td class="lefttd"><h6>Location you want:</h6></td><td><input type="text" name="t4" required="required" title="Please enter your location."/></td></tr><br>
+    <tr><td class="lefttd"><h6>Food Quantity(In Kg):</h6></td><td><input type="number" name="t5" required="required" pattern="[0-9]{1,2}" title="Please enter a amount of food you want"/></td></tr><br><br>
+
+    <tr><td>&nbsp;</td><td><input type="submit" value="Submit" name="sbmt" style="border:0px; background: blue; width:125px; height:40px; box-shadow:5px 5px 10px black; color:black; font-weight:bold; font-size:20px;"></td></tr></table><br><br><br><br><br><br>
+</div>
+</form>
+</div>
+</nav>
+</body>
+</body>
+</html>      
