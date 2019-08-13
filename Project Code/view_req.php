@@ -19,3 +19,15 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+
+  <?php include 'DBconnection.php'; ?>
+
+  </nav>
+
+  <table cellpadding="20" cellspacing="20" width="1000px" height="200px"  style="margin:auto" >
+   <tr><td colspan="7" align="center"></td></tr> // Taken help from www.w3school.com//
+
+   <tr><td>&nbsp;</td><td>&nbsp;</td></tr>   
+ <tr style="background-color:#01DFD7" align="center" class="bold">            
+             <td class="bold" align="center" style="color:#B40404">ID</td><td align="center" style="color:#B40404">Name</td><td align="center"style="color:#B40404">Mobile</td><td align="center" style="color:#B40404">Email</td><td align="center" style="color:#B40404">Location</td><td align="center" style="color:#B40404">Quantity</td>
+        </tr>
