@@ -19,12 +19,13 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div style="height:00px;">
-     <form method="post" enctype="multipart/form-data" style="width: 1200px; height: 600px;">
+     <form method="post" enctype="multipart/form-data" style="width: 1519px; height: 650px;">
       <div class="content">
         <br><br>
         
   <img src="Image/10.png" height="300px" width="1250px" style="margin-bottom:3px"></a>
 
+    <table width="100%" style="margin: 0 auto; border:3px solid;text-align:center">
     <tr><td class="lefttd"><h6>Your Name:</h6></td><td><input type="text" name="t1" required="required" title="Please enter your name"/></td></tr><br>
     <tr><td class="lefttd"><h6>Mobile no:</h6></td><td><input type="number" name="t2" required="required" pattern="[0-9]{10,11}" title="Please youe valied mobile no"/></td></tr><br>
     <tr><td class="lefttd"><h6>Email:</h6></td><td><input type="email" name="t3" required="required" title="Please enter your email address"/></td></tr><br>
