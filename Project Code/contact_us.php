@@ -15,8 +15,9 @@
   <a class="navbar-brand" href="index.php">Food For All</a>
    
 <div style="height:00px;">
-     <form method="post" enctype="multipart/form-data" style="width: 1200px; height: 600px;">
+     <form method="post" enctype="multipart/form-data" style="width: 1519px; height: 600px;">
       <div class="content">
+      	<table width="100%" style="margin: 0 auto; border:3px solid;text-align:center">
         <br>
         <br>
       <h1 align="center"><span class="bold">Contact Us</span></h1>
