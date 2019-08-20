@@ -24,3 +24,35 @@
 </table>
 
 <?php include 'DBconnection.php'; ?>
+<?php
+
+$_SESSION['donorstatus']="";
+
+if(isset($_POST["sbmt"])) 
+{
+  
+  $cn=makeconnection();     
+
+      $s="select *from users where username='" . $_POST["t1"] . "' and pwd='" .$_POST["t2"] . "'";
+      
+  $q=mysqli_query($cn,$s);
+  $r=mysqli_num_rows($q);
+  mysqli_close($cn);
+  if($r>0)
+  {
+    $_SESSION["username"]=$_POST["t1"];
+       $_SESSION['donorstatus']="yes";
+//header("location:donor/index.php");
+echo "<script>location.replace('index2.php');</script>";
+  }
+  else
+  {
+    echo "<script>alert('Invalid User Name Or Password');</script>";
+  }
+    
+    } 
+?> 
+</form>
+</div>
+</body>             
+<?php include 'footer.php';
