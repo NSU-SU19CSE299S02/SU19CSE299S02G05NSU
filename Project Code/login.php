@@ -19,12 +19,12 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div style="height:00px;">
-     <form method="post" enctype="multipart/form-data" style="width: 1200px; height: 600px;">
+     <form method="post" enctype="multipart/form-data" style="width: 1519px; height: 600px;">
       <div class="content">
         <br><br><br>
       <img src="Image/img8.jpg" height="300px" width="1250px" style="margin-bottom:10px"></a>
       <br><br>
-
+      <table width="100%" style="margin: 0 auto; border:3px solid;text-align:center">
       <tr><td class="lefttd"><h3>E-Mail:</h3></td><td><input type="email" name="t1" required="required" title="Please enter your email"/></td></tr>
       <tr><td class="lefttd"><h3>Password:</h3></td><td><input type="password"name="t2"  required="required" pattern="[a-zA-Z0-9]{2,10}" title="please enter only character or numbers between 2 to 10 for password"  /></td></tr>
 
