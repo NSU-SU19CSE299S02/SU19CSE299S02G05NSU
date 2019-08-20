@@ -19,11 +19,12 @@
     <span class="navbar-toggler-icon"></span>
   </button>
  <div style="height:00px;">
- <from method="post" entype="multipart/from-data" style="width: 1200px; height: 600px;">
+ <from method="post" entype="multipart/from-data" style="width: 1519px; height: 700px;">
   <div class="content">
   <br><br><br>
   <img src="Image/img9.jpg" height="300px" width="1250px" style="margin-bottom:10px"></a>
   <br>
+  <table width="100%" style="margin: 0 auto; border:3px solid;text-align:center">
 
     <tr><td class="lefttd"><h6>First Name:</h6></td><td><input type="text" name="t1" required="required" title="Please enter your first name"/></td></tr><br>
     <tr><td class="lefttd"><h6>Middle Name:</h6></td><td><input type="text" name="t2" required="required" title="Please enter your Middle name"/></td></tr><br>
