@@ -55,4 +55,18 @@ function get_confirmed_locations(){
 select id ,lat,lng,description,location_status as isconfirmed
 from locations WHERE  location_status = 1
   ");
-    
+        $rows = array();
+
+    while($r = mysqli_fetch_assoc($sqldata)) {
+        $rows[] = $r;
+
+    }
+
+    $indexed = array_map('array_values', $rows);
+    //  $array = array_filter($indexed);
+
+    echo json_encode($indexed);
+    if (!$rows) {
+        return null;
+    }
+}
