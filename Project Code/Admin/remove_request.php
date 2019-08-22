@@ -29,3 +29,31 @@ $s="select * from requests";
 	mysqli_close($cn);
 ?>
 </select>
+<?php
+if(isset($_POST["show"]))
+{
+$cn=makeconnection();
+$s="select * from requests where req_id='" .$_POST["s2"] ."'";
+	$result=mysqli_query($cn,$s);
+	$r=mysqli_num_rows($result);
+	$data=mysqli_fetch_array($result);
+	$req_id=$data[0];
+	$name=$data[1];
+	$mobile=$data[2];
+	$email=$data[3];
+	$location=$data[4];
+	$quantity=$data[5];	
+	mysqli_close($cn);
+}
+?>
+</td></tr>
+<tr><td>&nbsp;</td><td><input type="submit" value="DELETE" name="sbmt"></td></tr>
+</table>
+</form>
+</div>
+</div>
+</center>
+<?php include('footer.php'); ?>
+   
+</body>
+</html>
