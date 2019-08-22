@@ -10,3 +10,26 @@
    <tr><td>&nbsp;</td><td>&nbsp;</td></tr>   
    <tr style="background-color:#6247b5" align="center" class="bold">            
              <td class="bold" align="center" style="color:#ffffff">Name</td><td align="center" style="color:#ffffff">Mobile</td><td align="center"style="color:#ffffff">Email</td><td align="center" style="color:#ffffff">Request ID</td><td align="center" style="color:#ffffff">Food Quantaty(In Kg)</td></tr>
+             <?php
+
+$cn=mysqli_connect("localhost","root","","foodforall");
+$s="select * from donated";
+  $result=mysqli_query($cn,$s);
+  $r=mysqli_num_rows($result);
+  
+  while($data=mysqli_fetch_array($result))
+  {
+        echo"<tr><td align='center' style='color:#380B61'>$data[1]</td><td align='center' style='color:#380B61'>$data[2]</td><td align='center' style='color:#380B61'>$data[3]</td><td align='center' style='color:#380B61'>$data[4]</td><td align='center' style='color:#380B61'>$data[5]</td></tr>";
+      }
+      mysqli_close($cn);
+      ?>
+
+
+      </table>
+    </nav>
+  </body>
+</body><br><br><br>
+<?php include 'footer.php'; ?>
+
+
+</html>
