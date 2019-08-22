@@ -11,4 +11,23 @@
  <tr style="background-color:#7180f5" align="center" class="bold">            
              <td class="bold" align="center" style="color:#B40404">ID</td><td align="center" style="color:#B40404">Name</td><td align="center"style="color:#B40404">Mobile</td><td align="center" style="color:#B40404">Email</td><td align="center" style="color:#B40404">Location</td><td align="center" style="color:#B40404">Quantity</td>
         </tr>
+        <?php
+
+$cn=mysqli_connect("localhost","root","","foodforall");
+$s="select * from requests";
+  $result=mysqli_query($cn,$s);
+  $r=mysqli_num_rows($result);
+  
+  while($data=mysqli_fetch_array($result))
+  {
+        echo"<tr><td align='center' style='color:#380B61'>$data[0]</td><td align='center' style='color:#380B61'>$data[1]</td><td align='center' style='color:#380B61'>$data[2]</td><td align='center' style='color:#380B61'>$data[3]</td><td align='center' style='color:#380B61'>$data[4]</td><td align='center' style='color:#380B61'>$data[5]</td></tr>";
+      }
+      mysqli_close($cn);
+      ?>
+
+
+      </table>
+    </nav>
+  </body>
+</body><br><br><br>
         <?php include 'footer.php'; ?>
