@@ -38,4 +38,18 @@ function initMap() {
                       }
      })(marker, i));
     }
-    }
+}
+function saveData() {
+        var confirmed = document.getElementById('confirmed').checked ? 1 : 0;
+        var id = document.getElementById('id').value;
+        var url = 'locations_model.php?confirm_location&id=' + id + '&confirmed=' + confirmed ;
+        downloadUrl(url, function(data, responseCode) {
+            if (responseCode === 200  && data.length > 1) {
+                infowindow.close();
+                window.location.reload(true);
+            }else{
+                infowindow.setContent("<div style='color: purple; font-size: 25px;'>Inserting Errors</div>");
+            }
+   });
+}
+
