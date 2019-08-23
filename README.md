@@ -50,7 +50,7 @@ With this web app we are trying to solve the problem of food faced by a certain 
 
 **Login:**
 
-The system provides security features through username-password matching where only authorized user can access the system.
+The system provides security features through email-password matching where only authorized user can access the system.
 
 **Admin Login:**
 
@@ -62,9 +62,18 @@ In this part user will be able to login and he/she will be able to see all the d
 
 **User Login:**
 
-1. Sign Up
+1. Donate food
 2. Sign In
 3. Become a donor
+4. Send request
+5. View request
+6. About us
+7. Contact us 
+8. Logout
+
+**Donate food:**
+
+In this part user can donote food by seeing the request id send by the other user. It will also contain a form where donor needs to add his name, mobile, email, req_id, quntity. By submitting the form it will take it to the user map for setup the location in the map.
 
 **Request for food:**
 
