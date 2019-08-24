@@ -146,3 +146,26 @@ include 'locations_model.php';
             })(marker, i));
         }
 
+/**
+         * SAVE save marker from map.
+         * @param lat  A latitude of marker.
+         * @param lng A longitude of marker.
+         */
+        function saveData(lat,lng) {
+            var description = document.getElementById('manual_description').value;
+            var url = 'locations_model.php?add_location&description=' + description + '&lat=' + lat + '&lng=' + lng;
+            downloadUrl(url, function(data, responseCode) {
+                if (responseCode === 200  && data.length > 1) {
+                    var markerId = getMarkerUniqueId(lat,lng); // get marker id by using clicked point's coordinate
+                    var manual_marker = markers[markerId]; // find marker
+                    manual_marker.setIcon(purple_icon);
+                    infowindow.close();
+                    infowindow.setContent("<div style=' color: purple; font-size: 25px;'> Waiting for admin confirm!!</div>");
+                    infowindow.open(map, manual_marker);
+
+                }else{
+                    console.log(responseCode);
+                    console.log(data);
+                    infowindow.setContent("<div style='color: red; font-size: 25px;'>Inserting Errors</div>");
+                }
+            });
