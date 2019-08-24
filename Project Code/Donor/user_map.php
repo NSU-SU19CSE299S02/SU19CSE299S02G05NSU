@@ -169,3 +169,34 @@ include 'locations_model.php';
                     infowindow.setContent("<div style='color: red; font-size: 25px;'>Inserting Errors</div>");
                 }
             });
+
+
+             }
+
+        function downloadUrl(url, callback) {
+            var request = window.ActiveXObject ?
+                new ActiveXObject('Microsoft.XMLHTTP') :
+                new XMLHttpRequest;
+
+            request.onreadystatechange = function() {
+                if (request.readyState == 4) {
+                    callback(request.responseText, request.status);
+                }
+            };
+
+            request.open('GET', url, true);
+            request.send(null);
+        }
+
+
+    </script>
+
+
+
+
+
+<?php
+include_once 'mfooter.php';
+
+?>
+// Taken help from youtube . Repository link : https://bitbucket.org/webeasystep/markers_manager_php_mysql/src/master/
