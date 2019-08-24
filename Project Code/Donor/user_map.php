@@ -30,3 +30,24 @@ include 'locations_model.php';
          * @type {Object.<string, google.maps.LatLng>}
          */
         var markers = {};
+        /**
+         * Concatenates given lat and lng with an underscore and returns it.
+         * This id will be used as a key of marker to cache the marker in markers object.
+         * @param {!number} lat Latitude.
+         * @param {!number} lng Longitude.
+         * @return {string} Concatenated marker id.
+         */
+        var getMarkerUniqueId= function(lat, lng) {
+            return lat + '_' + lng;
+        };
+
+        /**
+         * Creates an instance of google.maps.LatLng by given lat and lng values and returns it.
+         * This function can be useful for getting new coordinates quickly.
+         * @param {!number} lat Latitude.
+         * @param {!number} lng Longitude.
+         * @return {google.maps.LatLng} An instance of google.maps.LatLng object
+         */
+        var getLatLng = function(lat, lng) {
+            return new google.maps.LatLng(lat, lng);
+        };
