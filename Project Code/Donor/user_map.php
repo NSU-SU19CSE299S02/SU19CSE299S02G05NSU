@@ -73,3 +73,22 @@ include 'locations_model.php';
                 "        </table>\n" +
                 "    </div>"
             });
+             markers[markerId] = marker; // cache marker in markers object
+            bindMarkerEvents(marker); // bind right click event to marker
+            bindMarkerinfo(marker); // bind infowindow with click event to marker
+        });
+
+        /**
+         * Binds  click event to given marker and invokes a callback function that will remove the marker from map.
+         * @param {!google.maps.Marker} marker A google.maps.Marker instance that the handler will binded.
+         */
+        var bindMarkerinfo = function(marker) {
+            google.maps.event.addListener(marker, "click", function (point) {
+                var markerId = getMarkerUniqueId(point.latLng.lat(), point.latLng.lng()); // get marker id by using clicked point's coordinate
+                var marker = markers[markerId]; // find marker
+                infowindow = new google.maps.InfoWindow();
+                infowindow.setContent(marker.html);
+                infowindow.open(map, marker);
+                // removeMarker(marker, markerId); // remove it
+            });
+        };
