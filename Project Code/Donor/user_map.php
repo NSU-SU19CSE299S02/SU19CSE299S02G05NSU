@@ -92,3 +92,14 @@ include 'locations_model.php';
                 // removeMarker(marker, markerId); // remove it
             });
         };
+        /**
+         * Binds right click event to given marker and invokes a callback function that will remove the marker from map.
+         * @param {!google.maps.Marker} marker A google.maps.Marker instance that the handler will binded.
+         */
+        var bindMarkerEvents = function(marker) {
+            google.maps.event.addListener(marker, "rightclick", function (point) {
+                var markerId = getMarkerUniqueId(point.latLng.lat(), point.latLng.lng()); // get marker id by using clicked point's coordinate
+                var marker = markers[markerId]; // find marker
+                removeMarker(marker, markerId); // remove it
+            });
+        };
