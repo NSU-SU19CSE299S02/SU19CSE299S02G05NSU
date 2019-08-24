@@ -51,3 +51,25 @@ include 'locations_model.php';
         var getLatLng = function(lat, lng) {
             return new google.maps.LatLng(lat, lng);
         };
+
+/**
+         * Binds click event to given map and invokes a callback that appends a new marker to clicked location.
+         */
+        var addMarker = google.maps.event.addListener(map, 'click', function(e) {
+            var lat = e.latLng.lat(); // lat of clicked point
+            var lng = e.latLng.lng(); // lng of clicked point
+            var markerId = getMarkerUniqueId(lat, lng); // an that will be used to cache this marker in markers object.
+            var marker = new google.maps.Marker({
+                position: getLatLng(lat, lng),
+                map: map,
+                animation: google.maps.Animation.DROP,
+                id: 'marker_' + markerId,
+                html: "    <div id='info_"+markerId+"'>\n" +
+                "        <table class=\"map1\">\n" +
+                "            <tr>\n" +
+                "                <td><a>Description:</a></td>\n" +
+                "                <td><textarea  id='manual_description' placeholder='Description'></textarea></td></tr>\n" +
+                "            <tr><td></td><td><input type='button' value='Save' onclick='saveData("+lat+","+lng+")'/></td></tr>\n" +
+                "        </table>\n" +
+                "    </div>"
+            });
