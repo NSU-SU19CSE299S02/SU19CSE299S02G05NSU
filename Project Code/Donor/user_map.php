@@ -132,3 +132,17 @@ include 'locations_model.php';
                 "</div>"
             });
 
+            google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                return function() {
+                    infowindow = new google.maps.InfoWindow();
+                    confirmed =  locations[i][4] === '1' ?  'checked'  :  0;
+                    $("#confirmed").prop(confirmed,locations[i][4]);
+                    $("#id").val(locations[i][0]);
+                    $("#description").val(locations[i][3]);
+                    $("#form").show();
+                    infowindow.setContent(marker.html);
+                    infowindow.open(map, marker);
+                }
+            })(marker, i));
+        }
+
