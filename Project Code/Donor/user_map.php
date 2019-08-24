@@ -103,3 +103,32 @@ include 'locations_model.php';
                 removeMarker(marker, markerId); // remove it
             });
         };
+        /**
+         * Removes given marker from map.
+         * @param {!google.maps.Marker} marker A google.maps.Marker instance that will be removed.
+         * @param {!string} markerId Id of marker.
+         */
+        var removeMarker = function(marker, markerId) {
+            marker.setMap(null); // set markers setMap to null to remove it from map
+            delete markers[markerId]; // delete marker instance from markers object
+        };
+
+
+        /**
+         * loop through (Mysql) dynamic locations to add markers to map.
+         */
+        var i ; var confirmed = 0;
+        for (i = 0; i < locations.length; i++) {
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                map: map,
+                icon :   locations[i][4] === '1' ?  red_icon  : purple_icon,
+                html: "<div>\n" +
+                "<table class=\"map1\">\n" +
+                "<tr>\n" +
+                "<td><a>Description:</a></td>\n" +
+                "<td><textarea disabled id='manual_description' placeholder='Description'>"+locations[i][3]+"</textarea></td></tr>\n" +
+                "</table>\n" +
+                "</div>"
+            });
+
