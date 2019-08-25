@@ -112,3 +112,82 @@ HTML, PHP, CSS, Bootstrap template, My SQL Server, Google Map API.
 
 It is mainly a free to use for everyone. There will be no need for any amount of money to create an account in this webpage.
 But through Google AdSense we want to monetize the webpage. Also if any donor wants to donate some amount of money they can do it through Bkash , Rocket .
+
+<br><br>
+
+**Design:**
+
+We used the template of Bootstrap containing all the CSS and JS files downloaded from their website. We don't use any extra design in the webpage. But we used some image files to make the website look a little good.
+
+**Planning:**
+
+After selecting the project, we started our work by creating a UML diagram to make our work easy and it helped us to understand what we need to add or not in our website. Then we created issues in the project board. Then by weekly submission we tried to solve those issues. The project contains total of 43 closed issues which was used to make this website. All the details are shown in the project bord https://github.com/AnimeshMondol/SU19CSE299S02G05NSU/projects/1 
+
+**What did/didn't work:**
+
+Around 85-90% of our project run's very well. But we faced some problems. They are:
+
+1. As we were unable to constract the foregin key in the DB after login the user need to input his name, mobile no , email and other informations manually.
+2. For the donate us page under user, we didn't find any proper solution on how we can give the user the confermation about if his donation is received or not. So we manually take the name , mobile , the amount of money he donated and transaction id and store in the DB.
+3. The admin map has some bugs that we were unable to fix. It doesn't refresh after the pickup confermation was done by the admin.
+4. We wanted user to make the pickup request from his/her phone but we didn't able to make the website suitable for phones.
+
+**Screenshots:**
+
+![DB](https://user-images.githubusercontent.com/51692385/63655540-f3ca4d00-c7aa-11e9-96e7-397b5d4a4704.jpg)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image: DB(Foodforall)**
+<br>
+
+![Homepage](https://user-images.githubusercontent.com/51692385/63655541-f462e380-c7aa-11e9-9615-94d9b5397060.jpg)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image: Homepage**
+<br>
+
+![login](https://user-images.githubusercontent.com/51692385/63655542-f462e380-c7aa-11e9-8de4-1afdae8d2ef6.jpg)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image: Login Page**
+<br>
+
+![joinus](https://user-images.githubusercontent.com/51692385/63655543-f462e380-c7aa-11e9-9863-480e20e11cc0.jpg)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image: Join us Page**
+<br>
+
+![donorlogin](https://user-images.githubusercontent.com/51692385/63655544-f4fb7a00-c7aa-11e9-8cd4-7943a57c0ff9.jpg)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image: Donor Login Page**
+<br>
+
+![fooddonation](https://user-images.githubusercontent.com/51692385/63655545-f4fb7a00-c7aa-11e9-8625-aade979900a0.jpg)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image: Food Donation**
+<br>
+
+![adminlogin](https://user-images.githubusercontent.com/51692385/63655546-f5941080-c7aa-11e9-820a-a1c09c89bf57.jpg)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image: Admin Login**
+<br>
+
+![adminhome](https://user-images.githubusercontent.com/51692385/63655548-f5941080-c7aa-11e9-89e7-53b60e9aa943.jpg)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image: Admin Home**
+<br><br><br>
+
+**Conclusion:**
+
+1. First of all we learnt how to use Github. It was completely new for us. But we now know how to use it.
+2. We learnt about PHP, HTML and How to create DB connection in Mysql to create a project.
+3. If we have more time we may be able to make the full project work properly.
+4. In future, if we get chance we also want to create a android app for this weabsite.
+
+**References:**
+
+1.https://getbootstrap.com/docs/4.3/examples/starter-template/
+2.https://www.w3schools.com/
+3.https://www.youtube.com/
+4.https://stackoverflow.com/questions/22138746/php-form-not-inserting-into-mysql-database
+5.https://www.google.com/search?q=html+color+picker&oq=html+&aqs=chrome.0.69i59j69i57j69i60j69i65l2j69i60.3167j0j7&sourceid=chrome&ie=UTF-8
+6.https://www.geeksforgeeks.org/
+7.https://www.youtube.com/watch?v=q2VV3-yWupU
+8.https://bitbucket.org/webeasystep/markers_manager_php_mysql/src/master/
