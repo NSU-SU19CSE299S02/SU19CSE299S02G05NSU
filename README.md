@@ -50,11 +50,20 @@ With this web app we are trying to solve the problem of food faced by a certain 
 
 **Login:**
 
-The system provides security features through username-password matching where only authorized user can access the system.
+The system provides security features through email-password matching where only authorized user can access the system.
 
 **Admin Login:**
 
 In this part the manager will keep up the donated elements and donor details. He/ She will be able to know all the information and edit them. He/ She can assign people where to pick up the food from which will be shown in Google Map.
+
+1. Add user
+2. Remove user
+3. View user
+4. View request
+5. Remove request
+6. View donation
+7. Confirm pickup location
+8. Logout
 
 **User Login:**
 
@@ -62,13 +71,26 @@ In this part user will be able to login and he/she will be able to see all the d
 
 **User Login:**
 
-1. Sign Up
+1. Donate food
 2. Sign In
 3. Become a donor
+4. Send request
+5. View request
+6. About us
+7. Contact us 
+8. Logout
+
+**Donate food:**
+
+In this part user can donote food by seeing the request id send by the other user. It will also contain a form where donor needs to add his name, mobile, email, req_id, quntity. By submitting the form it will take it to the user map for setup the location in the map.
 
 **Request for food:**
 
 In this part user can request for food to the website so that other user(donor) can donote food to them for donotion. 
+
+**Donote Us**
+
+In this part user will have a option to donote us money if they want for the development purpose. In this part there will be Bkash and Rocket no where donors can donate us. It will contain a form where name,mobile,amount and transaction id will be asked to stored on DB.
 
 **View requests**
 
