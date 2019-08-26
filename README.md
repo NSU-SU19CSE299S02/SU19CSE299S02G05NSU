@@ -164,6 +164,11 @@ Around 85-90% of our project run's very well. But we faced some problems. They a
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image: Food Donation**
 <br>
 
+![69147254_2420599648053179_2848892042690428928_n](https://user-images.githubusercontent.com/51694797/63707644-372cc600-c854-11e9-8f91-adeb047e8e7d.jpg)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image: User map**
+<br>
+
 ![adminlogin](https://user-images.githubusercontent.com/51692385/63655546-f5941080-c7aa-11e9-820a-a1c09c89bf57.jpg)
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image: Admin Login**
@@ -172,6 +177,12 @@ Around 85-90% of our project run's very well. But we faced some problems. They a
 ![adminhome](https://user-images.githubusercontent.com/51692385/63655548-f5941080-c7aa-11e9-89e7-53b60e9aa943.jpg)
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image: Admin Home**
+<br>
+
+![69571509_436244613901906_8345200741224284160_n](https://user-images.githubusercontent.com/51694797/63707645-37c55c80-c854-11e9-9224-d12415b8e5d2.jpg)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image: Admin map**
+
 <br><br><br>
 
 **Conclusion:**
