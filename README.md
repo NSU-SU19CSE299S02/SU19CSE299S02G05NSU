@@ -195,10 +195,17 @@ Around 85-90% of our project run's very well. But we faced some problems. They a
 **References:**
 
 1.https://getbootstrap.com/docs/4.3/examples/starter-template/
+
 2.https://www.w3schools.com/
+
 3.https://www.youtube.com/
+
 4.https://stackoverflow.com/questions/22138746/php-form-not-inserting-into-mysql-database
+
 5.https://www.google.com/search?q=html+color+picker&oq=html+&aqs=chrome.0.69i59j69i57j69i60j69i65l2j69i60.3167j0j7&sourceid=chrome&ie=UTF-8
+
 6.https://www.geeksforgeeks.org/
+
 7.https://www.youtube.com/watch?v=q2VV3-yWupU
+
 8.https://bitbucket.org/webeasystep/markers_manager_php_mysql/src/master/
